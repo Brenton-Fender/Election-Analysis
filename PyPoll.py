@@ -41,6 +41,10 @@ with open(file_to_load) as election_data:
         # Add a vote to that candidate's count.
         candidate_votes[candidate_name] += 1
 
+    for candidate_name in candidate_options:
+        vote_percentage = float(candidate_votes[candidate_name] / total_votes * 100)
+        print(f"{candidate_name} recieved {vote_percentage: .2f}% of the votes.")
+
 #print the candidate votes.
 print(candidate_votes)
 
