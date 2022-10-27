@@ -34,8 +34,8 @@ This project will:
 
  ## Resources
  
- -Data Source: election_results.csv
- -Software: Python 3.10.5, Visual Studio Code 1.72.2
+ - Data Source: election_results.csv
+ - Software: Python 3.10.5, Visual Studio Code 1.72.2
  
  
 ## Summary
